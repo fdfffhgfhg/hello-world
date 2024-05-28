@@ -1,0 +1,28 @@
+class Duck:
+    def walk(self):
+        print("The duck is walking")
+    def talk(self):
+        print("The duck is qwacking")
+
+class Chicken:
+    def walk(self):
+        print("The chicken is walking")
+    def talk(self):
+        print("The chicken is chipping")
+
+class Person():
+    def catch(self,duck):
+          duck.walk()
+          duck.talk()
+          print("You catch an animal")
+
+
+duck = Duck()
+chicken = Chicken()
+person = Person()
+for i in range(1,6):
+    if i % 2 == 0 :
+        person.catch(duck)
+    elif i % 2 == 1 :
+        person.catch(chicken)
+print("Chuong trinh da chay xong")
