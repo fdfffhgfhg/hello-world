@@ -25,3 +25,4 @@ for i in range(1,6):
         person.catch(duck)
     elif i % 2 == 1 :
         person.catch(chicken)
+print("Chuong trinh da chay xong")
